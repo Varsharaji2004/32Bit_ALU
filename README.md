@@ -69,7 +69,7 @@ To Launch Simulation tool
 or
 
 •linux:/> nclaunch& // On subsequent calls to NCVERILOG 
-
+![Screenshot (41)](https://github.com/user-attachments/assets/90d68130-45ae-4111-9c0c-a77e3bfc4b77)
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
@@ -78,6 +78,8 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+
+![Screenshot 2024-11-16 201228](https://github.com/user-attachments/assets/fe37320e-17f1-4003-a7ce-93ebf5fd96d8)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +102,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot (43)](https://github.com/user-attachments/assets/4bdbf4e9-4171-474d-8c37-7aa15638fdc2)
 
 ### Fig 6: Nclaunch Window
 
@@ -142,6 +145,7 @@ To check the port connections in hierarchical design
 Inputs: Top level design / test bench Verilog codes 
 
 Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
+![Screenshot (44)](https://github.com/user-attachments/assets/4703f607-06b0-4325-8846-52fa5b303462)
 
 ## 	Steps for elaboration 
 
@@ -160,6 +164,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
 ## Fig 8: Elaboration Launch Option
+![Screenshot (44)](https://github.com/user-attachments/assets/98fef993-43d5-4ec3-9f44-db859b953268)
 
 ## Step 3: Simulation: 
 
@@ -174,13 +179,15 @@ Simulation allow to dump design and test bench signals into a waveform
 Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot (45)](https://github.com/user-attachments/assets/bebc2f47-c8b7-47fc-a97d-f4bd936da748)
 
 ## Fig 10:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/f86eb652-b2fc-46f1-aa7d-d6f74dd99e65)
 
 ## Fig 11:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/f2ad52bb-a29f-461c-93cb-e803407edadc)
 
 ### Result
-
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
